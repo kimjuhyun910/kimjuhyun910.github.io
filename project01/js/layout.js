@@ -99,9 +99,14 @@ $(function(){
     $(".link select").on("change",function(){
         var lik=$(this).val();
         if(lik) window.open(lik)
-    })
+    });
 
-    AOS.init();
+    AOS.init({
+        disable: function() {
+            var desktop = 769;
+            return window.innerWidth < desktop;
+        }
+    });
 
 
 

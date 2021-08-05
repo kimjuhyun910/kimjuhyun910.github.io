@@ -190,8 +190,8 @@ header #search button {font-size: 20px;}
 #movie02 i:hover {background: #ffcc66;color: #f2f2f2;}
 
 @media (max-width:768px){
-#movie02 {padding: 50px 0;text-align: center;color: #fff; background: #000;}
-#movie02 .container {width:auto;margin: 0 auto;overflow: hidden;}
+#movie02 {width: auto; padding: 0 0;text-align: center;color: #fff; background: #000;}
+#bgndVideo {width:auto;margin: 0 auto;overflow: hidden;}
 #movie02 .txt {padding: 100px 15px;}
 #movie02 .txt h2 {font-size: 20px; font-weight: 100;letter-spacing: 0.5em;margin-bottom: 30px;}
 #movie02 .txt p {font-size: 14px; font-weight: 300;letter-spacing: -0.025em;margin-bottom: 30px;line-height: 1.6;}

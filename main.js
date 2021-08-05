@@ -12,7 +12,7 @@ $("#Kim_portfolio").fullpage({
 });
 
 var options = {
-    strings: ['kimjuhyun 2021 portfolio'],
+    strings: ['Hello','kimjuhyun 2021 portfolio',],
     typeSpeed: 100
   };
 var typed = new Typed('.intro_slogan .txt', options);

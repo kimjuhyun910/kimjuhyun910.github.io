@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation01</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <script src="../assets/js/jquery-1.12.4.js"></script>
+    <style>
+        bo {background: #333;color: #f2f2f2;}
+        .container {width: 1200px;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+        .skql_m {position: absolute;top: 300px;left: 0;width: 200px;}
+        .thsu {text-align: right;}
+
+        @keyframes skql {
+            0% {transform: scaleX(0);}
+            50% {transform: scaleX(1);}
+            100% {transform: scaleX(0);}
+        }
+        .skql_m {width: 100%; animation: 0.6s infinite;}
+
+        @keyframes skql_move {
+            0%{transform: translate(100px,-100px)rotate(45deg) scale(0)}
+            10%{transform: translate(200px,0px)rotate(45deg) scale(1)}
+            20%{transform: translate(300px,-0px)rotate(90deg);}
+            30%{transform: translate(400px,-100px)rotate(45deg);}
+            40%{transform: translate(500px,-100px)rotate(45deg);}
+            50%{transform: translate(600px,-100px)rotate(45deg);}
+            60%{transform: translate(700px,-100px)rotate(45deg);}
+            70%{transform: translate(800px,-100px)rotate(45deg);}
+            80%{transform: translate(900px,-100px)rotate(45deg);}
+            90%{transform: translate(1100px,-100px)rotate(45deg);}
+            100%{transform: translate(1000px,-300px)rotate(-45deg) scale(0.75);}
+        }
+
+        .skql_m {animation: skql_move 6s linear both}
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div class="skql_m">
+        <img src=".../" alt="나비">
+    </div>
+    <div class""thsu">
+        <img src="thsu" alt="소녀">
+    </div>
+</div>
+</body>
+</html>

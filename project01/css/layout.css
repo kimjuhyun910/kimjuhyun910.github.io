@@ -8,7 +8,7 @@
 .top_banner i {position: absolute;top: 30px;right: 15px;}
 
 @media (max-width:768px){
-    .top_banner {position: absolute;top: 50%; left: 50%;transform: translate(-50%, -50%); background: #f2f2f2;overflow: hidden;width: calc(100% -60px); height: auto; transition: 0.5s;z-index: 999;}
+    .top_banner {position: absolute;top: 50%; left: 50%;transform: translate(-50%, -50%); background: #f2f2f2;overflow: hidden;width: calc(100% - 60px); height: auto; transition: 0.5s;z-index: 999;}
     .top_banner.on {height: 0;}
     .top_banner .container {width: auto; margin: 0 auto;padding: 30px 15px;position: relative;}
 
@@ -43,7 +43,7 @@ header #search button {font-size: 20px;}
 header {border-bottom: 1px solid #ddd;}
 header .container {display: flex;flex-direction: column; width: auto; margin: 0 auto;line-height: 100px;}
 header .container>* {padding: 0 15px;}
-header nav {position: fixed; top: 0;left: -100%; width: calc(100% -90px);height: 100vh; background: #fff; margin-left: 0;border-right: 1px solid #333;  transition: 0.5s; z-index: 999;}
+header nav {position: fixed; top: 0;left: -100%; width: calc(100% - 90px);height: 100vh; background: #fff; margin-left: 0;border-right: 1px solid #333;  transition: 0.5s; z-index: 999;}
 header nav.on {left: 0;}
 
 header nav>ul {display: flex;flex-direction:column;padding: 100px 0;}
